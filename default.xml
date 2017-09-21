@@ -10,11 +10,11 @@
            fetch=".." />
 
   <remote  name="candy"
-           revision="refs/heads/c8.0.0"
+           revision="refs/heads/c8.0"
            fetch=".."
            review="gerrit.bbqdroid.org" />
 
-  <default revision="refs/heads/c7.1.2"
+  <default revision="refs/heads/c8.0"
            remote="candy"
            sync-c="true"
            sync-j="4" />
